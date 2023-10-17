@@ -1,0 +1,39 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../img/bridge.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.date {
+  width:100%;
+  min-height: 350px;
+  opacity: 0.5;
+  background-color: #350463;
+  border-radius: 30px;
+
+}
+.weather {
+  width: 100%;
+  min-height: 350px;
+  opacity: 0.5;
+  background-color: #8a0c66;
+  border-radius: 30px;
+}
+.time {
+  width:1200px;
+  min-height: 200px;
+  opacity: 0.5;
+  background-color: #e134ea;
+  border-radius: 30px;
+}
